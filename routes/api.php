@@ -16,3 +16,8 @@ use Illuminate\Http\Request;
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:api');
+
+
+Route::get('/songs', 'SongsController@songs'); //get all songs
+
+Route::get('/leaderboard', 'ScoreController@scores'); //get leaderboard

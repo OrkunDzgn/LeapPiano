@@ -16,13 +16,13 @@ class CreateScoresTable extends Migration
         Schema::create('scores', function (Blueprint $table) {
             $table->increments('score_id');
             $table->unsignedInteger('song_id');
-            $table->unsignedInteger('id');
+            $table->unsignedInteger('user_id');
             $table->integer('score');
         });
 
 
         Schema::table('scores', function (Blueprint $table) {
-            $table->foreign('id')->references('id')->on('users');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('song_id')->references('song_id')->on('songs');
         });
     }

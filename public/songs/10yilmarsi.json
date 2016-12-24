@@ -1,0 +1,484 @@
+{
+"speed":"0.1",
+ "Notes":
+	[
+	   {
+			"octave":5,
+			"note":"Fa",
+			"vurus": "1",
+			"aug_dot": "true",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note": "La",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Sol",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Si",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "true"
+	   },
+	   {
+			"octave":5,
+			"note":"La",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Sol",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Fa",
+			"vurus": "2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":6,
+			"note":"Do",
+			"vurus": "1",
+			"aug_dot": "true",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":6,
+			"note":"Do",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+
+	   {
+			"octave":5,
+			"note":"La",
+			"vurus": "1",
+			"aug_dot": "true",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":6,
+			"note":"Do",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Si",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "true"
+	   },
+	   {
+			"octave":5,
+			"note":"La",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Sol",
+			"vurus": "2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {//15
+			"octave":5,
+			"note":"Si",
+			"vurus": "1",
+			"aug_dot": "true",
+			"diyez": "false",
+			"bemol": "true"
+	   },
+	   {
+			"octave":6,
+			"note":"Do",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":6,
+			"note":"Re",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Si",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "true"
+	   },
+	   {
+			"octave":5,
+			"note":"Sol",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":6,
+			"note":"Do",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Si",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "true"
+	   },
+	   {//21 genç
+			"octave":5,
+			"note":"La",
+			"vurus": "2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Fa",
+			"vurus": "1",
+			"aug_dot": "true",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Fa",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Sol",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Fa",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Mi",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Re",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Do",
+			"vurus": "2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {    //SUS
+			"octave":5,
+			"note":"Do",
+			"vurus": "2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+
+	   //basta bütün
+	   {
+			"octave":5,
+			"note":"Fa",
+			"vurus": "1",
+			"aug_dot": "true",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note": "La",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Sol",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Si",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "true"
+	   },
+	   {
+			"octave":5,
+			"note":"La",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Sol",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Fa",
+			"vurus": "2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":6,
+			"note":"Do",
+			"vurus": "1",
+			"aug_dot": "true",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":6,
+			"note":"Do",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+
+	   {
+			"octave":5,
+			"note":"La",
+			"vurus": "1",
+			"aug_dot": "true",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":6,
+			"note":"Do",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Si",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "true"
+	   },
+	   {
+			"octave":5,
+			"note":"La",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Sol",
+			"vurus": "2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+
+	   //demir aglarla
+	   {
+			"octave":5,
+			"note":"La",
+			"vurus": "1",
+			"aug_dot": "true",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"La",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Si",
+			"vurus": "2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "true"
+	   },
+	   {
+			"octave":5,
+			"note":"Sol",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"La",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Si",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "true"
+	   },
+	   {
+			"octave":6,
+			"note":"Do",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":6,
+			"note":"Re",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":6,
+			"note":"Re",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":6,
+			"note":"Do",
+			"vurus": "1",
+			"aug_dot": "true",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"La",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"Si",
+			"vurus": "1",
+			"aug_dot": "true",
+			"diyez": "false",
+			"bemol": "true"
+	   },
+	   {
+			"octave":5,
+			"note":"Si",
+			"vurus": "1/2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "true"
+	   },
+	   {
+			"octave":5,
+			"note":"La",
+			"vurus": "2",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   },
+	   {
+			"octave":5,
+			"note":"La",
+			"vurus": "1",
+			"aug_dot": "false",
+			"diyez": "false",
+			"bemol": "false"
+	   }
+	]
+}

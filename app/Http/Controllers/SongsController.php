@@ -30,6 +30,7 @@ class SongsController extends Controller
             abort(404);
         }
         $songsFormatter = new \App\Formatters\SongFormatter;
-        return $songsFormatter->formatCollection($songs);
+        $resultFormattedSongs = $songsFormatter->formatCollection($songs);
+        return $resultFormattedSongs;
     }
 }

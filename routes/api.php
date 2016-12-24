@@ -21,3 +21,7 @@ Route::get('/user', function (Request $request) {
 Route::get('/songs', 'SongsController@songs'); //get all songs
 
 Route::get('/leaderboard', 'ScoreController@scores'); //get leaderboard
+
+Route::post('/addscore/{score}/user/{userid}/song/{songid}', 'ScoreController@insertUserScore'); //post score to leaderboard
+
+//Route::post('/login/{user_id}', 'UserController@checkUser');

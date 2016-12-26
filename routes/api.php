@@ -22,6 +22,8 @@ Route::get('/songs', 'SongsController@songs'); //get all songs
 
 Route::get('/leaderboard', 'ScoreController@scores'); //get leaderboard
 
-Route::post('/addscore/{score}/user/{userid}/song/{songid}', 'ScoreController@insertUserScore'); //post score to leaderboard
+//Route::get('/userstats/{userid}', 'ScoreController@userStats'); //get user stats
 
-//Route::post('/login/{user_id}', 'UserController@checkUser');
+Route::post('/addscore/{score}/user/{userid}/song/{songid}', 'ScoreController@insertUserScore'); //post score to leaderboard 
+
+Route::post('/login/{user_email}/{password}', 'UserController@checkUserLogin'); //check login

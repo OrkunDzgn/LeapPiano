@@ -16,7 +16,8 @@ class UserController extends Controller
                 if(\Hash::check($password, $user->password)){
                     return ['status' => 'Login successful',
                             'statusBool' => true,
-                            'userid' => $user->id
+                            'userid' => $user->id,
+                            'name' => $user->name
                     ];
                 }
                 else {

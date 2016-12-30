@@ -54,15 +54,28 @@ class ScoreController extends Controller
                     $changeScore->user_id = $newScore->user_id;
                     $changeScore->song_id = $newScore->song_id;
                     $changeScore->save();
-                    return 'score updated to ' . $newScore->score . 'for user ' . $newScore->user->name;
+                    return ['status' => 'New score updated',
+                            'statusBool' => true,
+                            'userid' => $existingScore->user_id,
+                            'oldScore' => $existingScore->score,
+                            'newScore' => $newScore->score
+                    ];
                 }
                 else{
-                    return 'user old score was better';
+                    return ['status' => 'User record is higher',
+                            'statusBool' => false,
+                            'userid' => $existingScore->user_id,
+                            'oldScore' => $existingScore->score
+                    ];
                 }
             }
         }
         $newScore->save();
-        return 'new score added';
+        return ['status' => 'New score added',
+                'statusBool' => true,
+                'userid' => $existingScore->user_id,
+                'newScore' => $newScore->score
+        ];
     }
 }
         
